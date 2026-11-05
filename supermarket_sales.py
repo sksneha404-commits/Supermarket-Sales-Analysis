@@ -4,7 +4,6 @@ import matplotlib.pyplot as plt
 import os
 
 print(os.getcwd())
-print(os.listdir("Supermarket_Sales_Analysis"))
 # df=pd.read_csv(r"C:\Users\sksne\Desktop\my\python\supermarket_sales.csv",encoding="utf-8")
 # df=pd.read_csv(r"C:\Users\sksne\Desktop\my\python\Supermarket_Sales_Analysis/supermarket_sales.csv",encoding="utf-8")
 df=pd.read_csv("supermarket_sales.csv",encoding="utf-8")
